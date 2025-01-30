@@ -1,0 +1,36 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 40px;
+  align-items: center;
+}
+
+li{
+  margin-bottom: 10px;
+  background-color: azure;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+
+.selected{
+  background-color: blue;
+  
+}
+li:hover{
+  cursor: pointer;
+}
+button{
+  background-color: green;
+  border-radius: 20px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+  
+}
